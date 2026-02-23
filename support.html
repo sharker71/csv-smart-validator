@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — CSV Smart Validator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1a1a2e; background: #fafafa; }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+        h1 { font-size: 28px; margin-bottom: 8px; color: #1a1a2e; }
+        .subtitle { color: #6b7280; font-size: 14px; margin-bottom: 40px; }
+        h2 { font-size: 20px; margin-top: 36px; margin-bottom: 12px; color: #1a1a2e; }
+        p, li { font-size: 15px; color: #374151; margin-bottom: 12px; }
+        ul { padding-left: 24px; margin-bottom: 16px; }
+        li { margin-bottom: 8px; }
+        a { color: #4f46e5; }
+        .card { background: white; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; margin-bottom: 20px; }
+        .card h3 { font-size: 17px; margin-bottom: 8px; }
+        .badge { display: inline-block; background: #d1fae5; color: #065f46; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 12px; }
+        footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e5e7eb; font-size: 13px; color: #9ca3af; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support</h1>
+        <p class="subtitle">CSV Smart Validator — Shopify App</p>
+
+        <div class="card">
+            <h3>Contact Us</h3>
+            <p>For any questions, issues, or feature requests, reach out to us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:support@csvsmartvalidator.com">support@csvsmartvalidator.com</a></p>
+            <p><span class="badge">Response time: within 24 hours</span></p>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="card">
+            <h3>Does the app modify my Shopify store?</h3>
+            <p>No. CSV Smart Validator only reads and analyzes the CSV file you upload. It never writes anything to your store, modifies products, or accesses customer data. Your original file is always preserved — the app generates a separate corrected copy.</p>
+        </div>
+
+        <div class="card">
+            <h3>Is my CSV file stored on your servers?</h3>
+            <p>No. Your file is processed entirely in memory and discarded immediately after the validation report is generated. We never store your CSV files on disk or in any database.</p>
+        </div>
+
+        <div class="card">
+            <h3>What issues does the app detect and fix?</h3>
+            <p>The app runs 10 automated checks:</p>
+            <ul>
+                <li><strong>Header matching</strong> — fixes case and maps multilingual headers to Shopify format</li>
+                <li><strong>Blank column detection</strong> — warns about empty columns that can delete data in Overwrite mode</li>
+                <li><strong>Variant structure</strong> — validates multi-row product/variant format</li>
+                <li><strong>Encoding</strong> — converts to UTF-8, fixes smart quotes and special characters</li>
+                <li><strong>SKU protection</strong> — detects leading zeros lost by Excel</li>
+                <li><strong>Image URL validation</strong> — verifies URLs are reachable (Pro plan)</li>
+                <li><strong>Price &amp; inventory</strong> — normalizes currency formats, rounds decimals</li>
+                <li><strong>Required fields</strong> — checks for missing titles, invalid status values</li>
+                <li><strong>Duplicate handles</strong> — identifies accidental product merges</li>
+                <li><strong>Weight units</strong> — normalizes to valid Shopify values (g, kg, oz, lb)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>What's included in the Free plan?</h3>
+            <p>The Free plan includes 3 validations per month with files up to 100 rows. You get the full validation report with all 10 checks. To download corrected CSV files, check image URLs, or validate larger files, upgrade to the Pro plan.</p>
+        </div>
+
+        <div class="card">
+            <h3>How do I upgrade or downgrade my plan?</h3>
+            <p>Open the app in your Shopify admin and click "Upgrade to Pro" (or the plan name in the top right). You can change your plan at any time. Billing is handled through Shopify — charges appear on your regular Shopify invoice.</p>
+        </div>
+
+        <div class="card">
+            <h3>How do I uninstall the app?</h3>
+            <p>Go to your Shopify Admin → Settings → Apps and sales channels → CSV Smart Validator → Remove app. All data associated with your store will be deleted within 48 hours.</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 CSV Smart Validator. All rights reserved.</p>
+            <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
